@@ -12,7 +12,7 @@ function App() {
     if (!date) return alert("Please select a date!");
     try {
       setLoading(true);
-      const res = await axios.get(`http://localhost:5000/api/events/${date}`);
+      const res = await axios.get(`https://quicktory-backend.onrender.com/api/events/${date}`);
       setEvents(res.data);
     } catch (error) {
       console.error(error);
