@@ -87,7 +87,7 @@ function App() {
         />
         <div>
           <button  className="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-4 py-2 rounded hover:bg-gray-300 dark:hover:bg-gray-600">
-            <a href="https://github.com/Zaid401/Quicktory-Frontend">Github</a>
+            <a href="https://github.com/Zaid401/Quicktory-Frontend" target='blank'>Github</a>
           </button>
         </div>
       </header>
