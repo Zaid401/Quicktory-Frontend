@@ -14,7 +14,6 @@ function App() {
   const handleSearch = async () => {
     if (!date) return alert('Please select a date!');
 
-    
     const [yearPart, monthPart, dayPart] = date.split('-');
     setMonthDay({
       month: parseInt(monthPart, 10),
@@ -29,7 +28,6 @@ function App() {
       );
       setEvents(res.data);
     } catch (error) {
-      console.error(error);
       alert('Failed to fetch events.');
     } finally {
       setLoading(false);
